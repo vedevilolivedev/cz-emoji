@@ -9,8 +9,15 @@
   "engines": {
     "node": ">=4"
   },
-  "files": ["index.js", "lib/types.json"],
-  "keywords": ["commitizen", "adapter", "emoji"],
+  "files": [
+    "index.js",
+    "lib/types.json"
+  ],
+  "keywords": [
+    "commitizen",
+    "adapter",
+    "emoji"
+  ],
   "config": {
     "commitizen": {
       "path": "./index.js"
