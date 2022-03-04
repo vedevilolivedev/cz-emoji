@@ -7,18 +7,12 @@
   "repository": "vedevilolivedev/cz-emoji",
   "main": "index.js",
   "private": true,
+  "type": "module",
   "engines": {
     "node": ">=4"
   },
-  "files": [
-    "index.js",
-    "lib/types.json"
-  ],
-  "keywords": [
-    "commitizen",
-    "adapter",
-    "emoji"
-  ],
+  "files": ["index.js", "lib/types.json"],
+  "keywords": ["commitizen", "adapter", "emoji"],
   "config": {
     "commitizen": {
       "path": "./index.js"
