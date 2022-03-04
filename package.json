@@ -1,11 +1,12 @@
 {
-  "name": "cz-emoji",
-  "version": "1.0.1",
+  "name": "commlinty-cz-emoji",
+  "version": "1.0.2",
   "description": "Commlint friendly Commitizen adapter formatting commit messages using emojis.",
   "author": "Ved Evilolive",
   "license": "MIT",
   "repository": "vedevilolivedev/cz-emoji",
   "main": "index.js",
+  "private": "true",
   "engines": {
     "node": ">=4"
   },
