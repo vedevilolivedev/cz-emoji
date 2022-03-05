@@ -4,21 +4,16 @@
   "description": "Commlint friendly Commitizen adapter formatting commit messages using emojis.",
   "author": "Ved Evilolive",
   "license": "MIT",
-  "repository": "vedevilolivedev/cz-emoji",
+  "repository": "github:vedevilolivedev/cz-emoji",
   "main": "index.js",
-  "private": "true",
+  "publishConfig": {
+    "registry": "https://nexus.kailash.im:8081/repository/npm"
+  },
   "engines": {
     "node": ">=4"
   },
-  "files": [
-    "index.js",
-    "lib/types.json"
-  ],
-  "keywords": [
-    "commitizen",
-    "adapter",
-    "emoji"
-  ],
+  "files": ["index.js", "lib/types.json"],
+  "keywords": ["commitizen", "adapter", "emoji"],
   "config": {
     "commitizen": {
       "path": "./index.js"
@@ -34,6 +29,6 @@
     "pad": "^2.3.0",
     "prettier": "^1.18.2",
     "read-pkg-up": "^7.0.1",
-    "wrap-ansi": "^8.0.1"
+    "wrap-ansi": "3.0.0"
   }
 }
