@@ -1,6 +1,6 @@
 {
   "name": "commlinty-cz-emoji",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Commlint friendly Commitizen adapter formatting commit messages using emojis.",
   "author": "Ved Evilolive",
   "license": "MIT",
